@@ -46,15 +46,15 @@ jQuery(function(){
 		}
 		return false;
 	}
-	$(".font_plus").click(function(){
+	$(".viewCtrlPlus").click(function(){
 		userAgentChk();
 		Handicap_ZoomIn_Main();return false;
 	})
-	$(".font_default").click(function(){
+	$(".viewCtrlDefault").click(function(){
 		userAgentChk();
 		Handicap_Default_Main();return false;
 	})
-	$(".font_minus").click(function(){
+	$(".viewCtrlMinus").click(function(){
 		userAgentChk();
 		Handicap_ZoomOut_Main();return false;
 	})
