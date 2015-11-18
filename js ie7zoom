@@ -1,0 +1,15 @@
+<!--[if lte IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+	$('*').each(function(index) {
+		if ($(this).css("overflow")=="hidden"){
+			$(this).css("zoom",1);
+		}
+		if ($(this).css("display")=="inline-block"){
+			$(this).css("display",'inline');
+			$(this).css("zoom",1);
+		}
+	});
+//]]>
+</script>
+<![endif]-->
