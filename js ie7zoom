@@ -1,6 +1,7 @@
 <!--[if lte IE 7]>
 <script type="text/javascript">
 //<![CDATA[
+	//ie6버전 css 버그 픽스
 	$('*').each(function(index) {
 		if ($(this).css("overflow")=="hidden"){
 			$(this).css("zoom",1);
